@@ -16,7 +16,9 @@
 
 <body>
     <header>
-        <img class="caution" src="./img/caution.png" alt="テックエリートの教材用LP">
+        <a target="_blank" href="https://stock-sun.com/techelite/">
+            <img class="caution" src="./img/caution.png" alt="テックエリートの教材用LP">
+        </a>
         <div class="sp_header_fixed">
             <div class="sp_header is_sp_690">
                 <div class="sp_header_flex">

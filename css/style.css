@@ -21,7 +21,7 @@ li {
 
 .caution {
     position: fixed;
-    width: 69px;
+    width: 85px;
     top: 180px;
     z-index: 90;
 }
@@ -156,7 +156,7 @@ li {
     border: 3px solid;
     border-image: linear-gradient(to bottom, #9267BD, #D2C4E0, #9267BD) 1;
     box-sizing: border-box;
-    padding: 48px;
+    padding: 36px 48px;
 }
 
 .dotted {
@@ -180,6 +180,7 @@ li {
 
 .standard_contents .cash {
     font-size: 22px;
+    margin-top: 30px;
 }
 
 .standard_content {
@@ -201,7 +202,8 @@ li {
     border-color: #D4D4D4;
     max-width: 600px;
     width: 100%;
-    margin-bottom: 32px;
+    margin-bottom: 15px;
+    margin-top: 22px;
 }
 
 .base_table thead {
@@ -210,7 +212,7 @@ li {
 }
 
 .base_table thead td {
-    padding: 17px 70px;
+    padding: 8px 70px;
 }
 
 .base_table thead td span {
@@ -225,6 +227,12 @@ li {
     text-align: center;
     font-size: 22px;
     padding: 23px 0px;
+}
+
+.base_table tbody td {
+    font-size: 16px;
+    padding-top: 16px;
+    font-weight: bold;
 }
 
 .standard_right_content li {
@@ -926,12 +934,6 @@ footer {
     padding: 80px 16px;
 }
 
-footer img {
-    display: block;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 .cv {
     background-image: url(../img/cv_bg.png);
     background-size: cover;
@@ -960,12 +962,58 @@ footer img {
     display: block;
     max-width: 1100px;
     margin: 0 auto;
+    background-color: #F7F7F4;
+    padding: 48px;
 }
 
 .plan .title {
     font-size: 32px;
     text-align: center;
     margin-bottom: 60px;
+}
+
+.plan_content .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan_content .white_line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    margin: 48px 0px;
+}
+
+.concepts .title {
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+
+.concepts .purple {
+    color: #9267BD;
+    margin-bottom: 5px;
+}
+
+.concept {
+    margin-bottom: 28px;
+}
+
+.concept p {
+    font-size: 16px;
+}
+
+.concept img {
+    max-width: 450px;
+    padding-bottom:14px;
+}
+
+.concept .small_text {
+     font-size: 14px;
+}
+
+.plan_content .title {
+    word-break: keep-all;
 }
 
 .doctor {
@@ -1008,6 +1056,55 @@ footer img {
     margin-right: 20px;
 }
 
+.footer_contents {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.store_img {
+    display: block;
+    max-width: 382px;
+}
+
+.tel_icon {
+    width: 20px;
+    margin-right: 12px;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 21px;
+}
+
+.tel_number {
+    font-size: 27px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.footer_left_content .logo {
+    max-width: 364px;
+    margin-bottom: 17px;
+}
+
+.footer_left_content .copy {
+    margin-top: 32px;
+    font-size: 12px;
+}
+
+.logo_1000_pc {
+    display: block;
+}
+
+.logo_1000_sp {
+    display: none;
+}
+
 @media screen and (max-width:1200px) {
     .left_content {
         background: rgba(255, 255, 255, 0.3);
@@ -1029,6 +1126,7 @@ footer img {
     }
 
     .standard_left_content img {
+        max-width: 226px;
         margin-left: 0;
     }
 
@@ -1159,6 +1257,50 @@ footer img {
     .doctor_name {
         text-align: center;
         letter-spacing: 2px;
+        margin-bottom: 32px;
+    }
+
+    .footer_contents {
+        flex-flow:column-reverse
+    }
+
+    .logo_1000_pc {
+        display: none;
+    }
+
+    .logo_1000_sp {
+        display: block;
+    }
+
+    footer .logo {
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    footer {
+        padding:60px 16px
+    }
+
+    .store_img {
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .tel {
+        max-width: 233px;
+         margin: 0 auto;
+    }
+
+    .footer_left_content {
+        max-width: 382px;
+        margin: 0 auto;
+    }
+
+    .tel_text {
         margin-bottom: 32px;
     }
 }
@@ -1473,6 +1615,7 @@ footer img {
         display: block;
         max-width: 1100px;
         margin: 0 auto;
+        padding: 16px;
     }
 
     .plan .title {
@@ -1515,5 +1658,22 @@ footer img {
 
     textarea {
         max-width: 100%;
+    }
+
+    .step_content>p {
+        font-size: 16px;
+    }
+    .form .title_img {
+        max-width: 219px;
+    }
+    .form {
+        padding:60px 16px
+    }
+    .form .title {
+        font-size:24px;
+        margin-bottom: 40px;
+    }
+    form td {
+        font-size: 16px;
     }
 }

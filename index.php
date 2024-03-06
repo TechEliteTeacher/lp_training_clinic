@@ -213,8 +213,95 @@
 <div class="plan" id="plan" data-aos="fade-up">
   <img class="title_img" src="./img/plan_title.png" alt="plan">
   <p class="title">TCHレーザーの特徴</p>
-  <img class="plan_content is_pc_690" src="./img/plan_img.png" alt="">
-  <img class="plan_content is_sp_690" src="./img/plan_img_sp.png" alt="">
+  <div class="plan_content">
+    <div class="title">
+      <div class="dotted"></div>
+      <p class="text">スタンダードコース</p>
+      <div class="dotted"></div>
+    </div>
+    <p class="cash">料金</p>
+    <div class="standard_content">
+      <div class="standard_left_content">
+        <img src="./img/standard_img.png" alt="">
+      </div>
+      <div class="standard_right_content">
+        <table class="base_table">
+          <thead>
+            <tr>
+              <td>回数</td>
+              <td>料金（税込）<span>※麻酔、バック込み</span></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                1回
+              </td>
+              <td>
+                ￥79,000
+              </td>
+            </tr>
+            <tr>
+              <td>
+                5回
+              </td>
+              <td>
+                ￥356,000
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <ul>
+          <li>・所用時間：105分</li>
+          <li>・ダウンタイム：赤みは数日間</li>
+          <li>・痛み：痛みあり（麻酔クリームを使用することにより軽減）</li>
+        </ul>
+      </div>
+    </div>
+    <div class="white_line"></div>
+    <div class="concepts">
+      <p class="title">治療の概念</p>
+      <div class="concept">
+        <p class="purple">治療スケジュールと概数</p>
+        <p>初めに、4～6週間ごとに5回ほど継続がおすすめです。</p>
+      </div>
+      <div class="concept">
+        <p class="purple">洗顔とメイク</p>
+        <p>リジュビネーションおよびドラッグデリバリーは12時間後から可能です。ダイヤモンドチップは、施術直後からご利用いただけます。</p>
+      </div>
+      <div class="concept">
+        <p class="purple">シャワーと入浴</p>
+        <p>施術当日はシャワーのみ、翌日から入浴が可能です。</p>
+      </div>
+      <div class="concept">
+        <p class="purple">運動</p>
+        <p>施術当日は激しい運動は避けてください。</p>
+      </div>
+      <div class="concept">
+        <p class="purple">飲酒</p>
+        <p>施術当日は過度な飲酒はお控えください。</p>
+      </div>
+      <div class="concept">
+        <p class="purple">副作用、リスク、注意事項</p>
+        <p>施術後は肌が乾燥しやすくなるため、十分な保湿が必要です。また、紫外線による色素沈着を防ぐため、施術後は日焼け止めを使用し、しっかりと紫外線対策をしてください。（リジュビネーションおよびドラッグデリバリーは12時間経過後よりご利用いただけます。）</p>
+      </div>
+    </div>
+    <div class="white_line"></div>
+    <div class="concepts">
+      <p class="title">お支払い方法</p>
+      <div class="concept">
+        <p class="purple">お支払い方法</p>
+        <p>現金・クレジットカード・医療ローン</p>
+      </div>
+      <div class="concept">
+        <p class="purple">ご利用可能なクレジットカード</p>
+        <img src="./img/card.png" alt="">
+        <p class="small_text">※分割払いも可能です。お気軽にご相談ください</p>
+      </div>
+    </div>
+  </div>
+  <!-- <img class="plan_content is_pc_690" src="./img/plan_img.png" alt="">
+  <img class="plan_content is_sp_690" src="./img/plan_img_sp.png" alt=""> -->
 </div>
 <div class="facility" id="facility" data-aos="fade-up">
   <img class="title_img" src="./img/facility.png" alt="PHOTO">
@@ -273,7 +360,7 @@
 <div class="form" id="form">
   <img class="title_img" src="./img/form_title.png" alt="Reserve">
   <p class="title">WEB予約</p>
-  <form>
+  <form action="./#form">
     <table>
       <tbody>
         <tr>
@@ -350,7 +437,7 @@
             <div class="form_flex input_margin email">
               <input type="tel" placeholder="入力してください" name="tel" value="" />
             </div>
-            <p class="form_text">[半角英数字]</p>
+            <p class="form_text">[半角数字、ハイフン無し]</p>
           </td>
         </tr>
         <tr>
